@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(37, 53, 86);
+}
+
+.center{
+    width: 100%;
+    display: flex;
+}
+
+
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 105px;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 110px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu a span{
+    background-color: rgba(10,210,84,1);
+    padding: 7px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a span:hover{
+    background: rgb(1, 146, 54);
+}
+
+
+/*Segunda Sessão*/
+
+
+section{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.texto{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.texto a{
+    width: 900px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.buttons{
+    height: calc(550px - 300px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+}
+
+.buttons a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#nav2{
+    height: calc(100% - 70px);
+}
+
+.buttons nav #a1{
+    border-radius: 8px;
+    background: rgba(10,210,84,1);
+    padding: 20px 30px;
+    font-weight: bold;
+}
+
+nav #a1:hover{
+    background: rgb(1, 146, 54);
+}
+
+.buttons nav #a2{
+    border-radius: 4px;;
+    padding: 10px 80px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+nav #a2:hover{
+    background: rgba(255, 255, 255, 0.363);
+}
+
+
